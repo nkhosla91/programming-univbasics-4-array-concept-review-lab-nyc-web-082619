@@ -37,4 +37,3 @@ def find_min_value(array)
   end
   return newarr[-1]
 end
-end
