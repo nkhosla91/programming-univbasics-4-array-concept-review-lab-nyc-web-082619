@@ -13,10 +13,10 @@ def find_max_value(array)
   newarr = [array[0]]
   while array[counter] do
     if (array[counter] >= newarr[counter])
-      newarr.unshift(array[counter])
+      newarr.push(array[counter])
       counter += 1
     else 
-      newarr.p(array[counter])
+      newarr.unshift(array[counter])
       counter += 1
     end
     return newarr[-1]
