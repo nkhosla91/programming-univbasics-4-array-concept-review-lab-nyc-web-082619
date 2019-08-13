@@ -10,10 +10,10 @@ end
 
 def find_max_value(array)
   counter = 0
-  newarr = []
+  newarr = [0]
   while array[counter] do
     if (array[counter] > newarr[counter])
-      
+      newarr
 end
 
 def find_min_value(array)
