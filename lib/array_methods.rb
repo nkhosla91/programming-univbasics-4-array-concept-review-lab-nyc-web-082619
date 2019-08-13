@@ -14,8 +14,12 @@ def find_max_value(array)
   while array[counter] do
     if (array[counter] > newarr[counter])
       newarr.push(array[counter])
+      counter += 1
     else 
-      
+      newarr.unshift(array[counter])
+      counter += 1
+    end
+    return newarr[-1]
 end
 
 def find_min_value(array)
