@@ -10,9 +10,9 @@ end
 
 def find_max_value(array)
   counter = 0
-  newarr = [0]
+  newarr = [array[0]]
   while array[counter] do
-    if (array[counter] > newarr[counter])
+    if (array[counter] >= newarr[counter])
       newarr.push(array[counter])
       counter += 1
     else 
