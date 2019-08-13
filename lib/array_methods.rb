@@ -13,7 +13,9 @@ def find_max_value(array)
   newarr = [0]
   while array[counter] do
     if (array[counter] > newarr[counter])
-      newarr
+      newarr.push(array[counter])
+    else 
+      
 end
 
 def find_min_value(array)
