@@ -19,7 +19,7 @@ def find_max_value(array)
       newarr.unshift(array[counter])
       counter += 1
     end
-    return newarr[-1]
+    return newarr[0]
   end
 end
 
